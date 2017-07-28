@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Booking at Belas</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:200,400,700" rel="stylesheet"></head>
+<body>
+	<div class="container"> <!-- Container geral -->
+		<div class="row" id="heading"> <!-- Heading -->
+			<div class="col-md-6">
+				<img src="images/h19logo.svg" id="logo" />
+				<h4>Book a Tee Time</h4>
+				<h1>Belas Clube de Campo</h1>
+			</div>
+			<div class="col-md-6" id="heading-right">
+				Search > Book > Confirmation
+			</div>
+		</div>
+		<div class="row"> <!-- Tee time data -->
+			<div class="col-md-3">
+				<p>Date & Hour</p>
+				<p>Date box</p>
+				<p>Hour Box</p>
+				<p>Players</p>
+				<p>
+					<button type="button" class="btn btn-primary btn-xs">1</button>
+					<button type="button" class="btn btn-primary btn-xs">2</button>
+					<button type="button" class="btn btn-primary btn-xs">3</button>
+					<button type="button" class="btn btn-primary btn-xs">4</button>
+				</p>
+				<p>Holes</p>
+				<p>
+					<button type="button" class="btn btn-primary btn-xs">9</button>
+					<button type="button" class="btn btn-primary btn-xs">18</button>
+				</p>
+			</div>
+			<div class="col-md-9" id="tee-times">
+				<h2 id="table-head">Showing X tee times at Belas Clube de Campo</h2>
+				<table class="table">
+					<tbody>
+						<tr>
+							<td class="game-time">12:32 PM</td>
+							<td>2-4 players</td>
+							<td class="price">$100.00</td>
+							<td id="book-btn"><button type="button" class="btn btn-primary btn-xs">Book Now</button></td>
+						</tr>
+						<tr>
+							<td class="game-time">01:04 PM</td>
+							<td>2-4 players</td>
+							<td class="price">$100.00</td>
+							<td id="book-btn"><button type="button" class="btn btn-primary btn-xs">Book Now</button></td>
+						</tr>
+						<tr>
+							<td class="game-time">
+								<p id="xs-font"><strong>TEE TIME</strong><em> DEAL</em></p>
+								<p>01:20 PM</p>
+							</td>
+							<td>1-4 players</td>
+							<td class="price">
+								$61.00
+								<p id="xs-font"><del>$100.00</del> 39% off</p>
+							</td>
+							<td id="book-btn"><button type="button" class="btn btn-warning btn-xs">Book Now</button></td>
+						</tr>
+						<tr>
+							<td class="game-time">01:36 PM</td>
+							<td>2-4 players</td>
+							<td class="price">$100.00</td>
+							<td id="book-btn"><button type="button" class="btn btn-primary btn-xs">Book Now</button></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
