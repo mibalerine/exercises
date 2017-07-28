@@ -1,0 +1,12 @@
+tr td {
+    background-color: #e7e7e7;
+    border: 1px solid black;
+    color: black;
+    padding: 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 5px;
+	width: 20px;
+	height: 20px;
+}

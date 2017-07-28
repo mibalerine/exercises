@@ -1,0 +1,99 @@
+body, div, a {
+    padding:0;
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+#calculator {
+    background-color: #e0e0e0;
+    width: 232px;
+    height: 319px;
+    border: 1px #636563 solid;
+    margin: 10px auto;
+    padding: 0px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 23px 78px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 23px 78px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 23px 78px -4px rgba(0,0,0,0.75);
+}
+
+#total {
+    height: 66px;
+    width: 212px;
+    margin: 0px;
+    color: white;
+    background-color: #999999;
+    text-align: right;
+    font-size: 50px;
+    padding: 13px 15px 0px 5px;
+    border: 0px;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: 100;
+}
+
+::-webkit-input-placeholder { 
+    color: white;
+}
+
+::-moz-placeholder { 
+    color: white;
+}
+
+.operators a {
+    display: block;
+    width: 37px;
+    height: 27px;
+    float: left;
+    text-decoration: none;
+    color: white;
+    background-color: #ff8f11;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    margin: 0px;
+    border: solid #ACACAC 0.5px;
+    line-height: 100%;
+    border-bottom: 0px;
+    border-right: 0px;
+}
+
+.numbers a {
+    display: block;
+    width: 37px;
+    height: 27px;
+    float: left;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 14pt;
+    font-weight: 400;
+    padding: 10px;
+    margin: 0px;
+    border: solid #ACACAC 0.5px;
+    border-bottom: 0px;
+    border-right: 0px;
+}
+
+.numbers a:active, .numbers #clear-all:active {
+    background-color: #cacaca;
+}
+
+.numbers .esp-charac, .numbers #clear-all {
+    background-color: #D6D6D6;
+}
+
+.operators a:active {
+    background-color: #c76b03;
+}
+
+.numbers #zero {
+    width: 79px;
+    text-align: left;
+    padding-left: 26px;
+    border-bottom-left-radius: 10px;
+}
+
+.operators #equal {
+    border-bottom-right-radius: 10px;
+}
