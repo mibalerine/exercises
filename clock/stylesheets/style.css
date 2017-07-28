@@ -5,41 +5,41 @@
 }
 
 body {
-    background-image: url("http://i.imgur.com/8G6JM.jpg");
+  background-image: url("http://i.imgur.com/8G6JM.jpg");
 }
 
-#container {
+.container {
 	margin: auto;
 	display: table;
-    position: absolute;
-    height: 100%;
-    width: 100%;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
-#clock {
+.clock {
 	display: table-cell;
-    vertical-align: middle;  
+  vertical-align: middle;
 }
 
-#inner_clock {
+.clock > div:first-of-type {
 	margin-left: auto;
-    margin-right: auto; 
-    width: 41%;
-    min-width: 524.8px;
+  margin-right: auto;
+  width: 41%;
+  min-width: 524.8px;
 }
 
-#hour {
+.hour {
 	display: inline-block;
 	font-size: 145px;
 	padding-right: 20px;
 }
 
-#ampm_sec {
+.time div:last-of-type  {
 	display: inline-block;
 	font-size: 70px;
 	line-height: 65px;
 	text-align: center;
-}
+} /* ampm_sec */
 
 #date {
 	font-size: 70px;
@@ -50,7 +50,7 @@ body {
 	letter-spacing: 2px;
 }
 
-#sec {
+.sec {
 	letter-spacing: 13px;
 	padding-left: 13px;
 }
